@@ -1,0 +1,180 @@
+﻿*/*Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display : block;}
+body {line-height : 1; font-family:Arial , Sans-serif}
+ol, ul {list-style : none;}
+blockquote, q {quotes : none;}
+blockquote:before, blockquote:after, q:before, q:after {content : '';content : none;}
+
+
+body {
+    margin:0;
+    padding:0;
+    background: url(/css/Ett.jpg) center center fixed;
+    background-size:cover;
+}
+#LogintxtKey {
+    margin:auto;
+    padding:initial;
+    background-color:aqua;
+    border-bottom-color:aquamarine;
+    font-weight:100;
+    
+}
+.ButtonStyle {
+    margin:auto;
+    padding:initial;
+    background-color:blue;
+    border-bottom-color:aliceblue;
+}
+.container{margin-left:auto;
+ margin-right:auto;}
+
+.radiusTable {
+    width:400px;
+    padding:20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    background: silver;
+    margin-bottom: 10px;
+}
+
+/*Butonlar*/
+.ButtonStyle {height:30px; width:80px; 
+  display: block;
+  background-color: #ff3c00;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.ButtonStyle:hover {height:30px; width:80px;
+  background-color: #ffffff;
+  color: #ff3c00;
+  border-color: #ff3c00;
+}
+
+/*Kullanıcı İsim*/
+.LogintxtClient {
+    background: #ededed url(/Image/UseClient.png) no-repeat;
+    background-position: 5px 3px !important;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    width: 230px;
+    height: 25px;
+    margin-bottom:20px;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+
+}
+.LogintxtClient:focus {
+    background-color: #FFF;
+    border-color: #ff3c00;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+/*Kullanıcı Şifre*/
+.LogintxtKey {
+    background: #ededed url(/Image/key.png) no-repeat;
+    
+    background-position: 5px 3px !important;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    width: 230px;
+    height: 25px;
+    margin-bottom:20px;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+
+
+}
+.LogintxtKey:focus {
+    background-color: #FFF;
+    border-color: #ff3c00;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+/*Kullanıcı Giriş Menüsü*/
+.Login {width:300px; height:200px;
+  margin-left:auto; 
+  margin-right:auto; 
+  margin-top:180px;
+  padding-top:20px;
+  padding-bottom: 20px; 
+  -webkit-box-shadow: 0 0 10px 0 #434242;
+  box-shadow: 0 0 10px 0 #434242;
+
+}
+
+/*Açılır Pencere*/
+.Popup{
+	width:auto;
+	height:250px;
+	background-color:azure;
+	box-shadow:0 0 6px 2px rgba(0,0,0,0.4);
+	transition:opacity 0.3s ease-out;
+    z-index:1;
+	padding:10px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	/*margin:-150px 0 0 -200px;*/
+}
+
+/*Kayıt Ekleme*/
+.VeriAltxt {background: #ededed;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 245px;
+    height: 30px;
+    margin-bottom:15px;
+    margin-left:25px;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+
+
+}
+.VeriAltxt:focus {
+    background-color: #FFF;
+    border-color:#ff3c00;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+.VeriAlTitle {
+    margin-left: 30px;
+}
+
+.Liste{font-size:medium;
+  width:1280px; 
+  margin-left:auto; 
+  margin-right:auto; }
